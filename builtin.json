@@ -2,5 +2,13 @@
   {
     "name": "chatwoot 通知模版",
     "file": "chatwoot.jinja2"
+  },
+  {
+    "name": "WordPress hello",
+    "file": ""
+  },
+  {
+    "name": "WordPress hello",
+    "file": ""
   }
 ]
