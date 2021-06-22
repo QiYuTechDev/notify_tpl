@@ -1,0 +1,15 @@
+{# @formatter:off #}
+{# 简介: WP Webhook Comment 评论删除通知 #}
+{# 文档: 参见 WP Webhook 后台的文档 #}
+WordPress 评论删除通知:
+
+评论ID: {{ data.comment_id }}
+评论者: {{ data.comment_data.comment_author }}
+电子邮箱: {{ data.comment_data.comment_author_email }}
+IP地址: {{ data.comment_data.comment_author_IP }}
+通过验证: {{ data.comment_data.comment_approved }}
+评论文章: {{ data.current_post_data.post_title }}
+文章链接: {{ data.current_post_data.guid }}
+
+评论内容:
+{{ data.comment_data.comment_content }}

@@ -46,5 +46,17 @@
   {
     "name": "WordPress 更新文章",
     "file": "WordPress/WpWebhooks/post_update.jinja2"
+  },
+  {
+    "name": "WordPress 评论创建",
+    "file": "WordPress/WpWebhooks/comment_create.jinja2"
+  },
+  {
+    "name": "WordPress 更新评论",
+    "file": "WordPress/WpWebhooks/comment_update.jinja2"
+  },
+  {
+    "name": "WordPress 删除评论",
+    "file": "WordPress/WpWebhooks/comment_delete.jinja2"
   }
 ]
