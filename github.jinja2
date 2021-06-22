@@ -13,13 +13,6 @@
     在使用本通知模版的时候，需要您设置 数据类型(Content-Type)为 application/json
 #}
 
-{% macro render_issue(issue, comment) %}
-Git仓库: {{ issue.repository_url }}
-Issue: {{ issue.html_url }}
-标题: {{ issue.title }}
-内容: {{ comment.body }}
-{% endmacro %}
-
 {% if data.issue %}
 Github issue 通知:
     {% with issue=data.issue %}
@@ -29,8 +22,16 @@ Issue: {{ issue.html_url }}
 原标题: {{ issue.changes.title.from }}
 新标题: {{ issue.title }}
 内容: {{ data.comment.body }}
+        {% elif data.action == "opened"  %}
+Git仓库: {{ issue.repository_url }}
+Issue: {{ issue.html_url }}
+标题: {{ issue.title }}
+内容: {{ issue.body }}
         {% else %}
-{{ render_issue(issue, data.comment) }}
+Git仓库: {{ issue.repository_url }}
+Issue: {{ issue.html_url }}
+标题: {{ issue.title }}
+内容: {{ data.comment.body }}
         {% endif %}
     {% endwith %}
 {% elif data.zen %}
