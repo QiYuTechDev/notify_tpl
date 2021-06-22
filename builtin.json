@@ -14,5 +14,9 @@
   {
     "name": "WordPress WooCommerce 订单已删除",
     "file": "WordPress/WooCommerce/order_delete.jinja2"
+  },
+  {
+    "name": "WordPress 创建用户",
+    "file": "WordPress/WpWebhooks/user_create.jinja2"
   }
 ]
