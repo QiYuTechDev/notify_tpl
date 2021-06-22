@@ -4,11 +4,7 @@
     "file": "chatwoot.jinja2"
   },
   {
-    "name": "WordPress hello",
-    "file": ""
-  },
-  {
-    "name": "WordPress hello",
-    "file": ""
+    "name": "WordPress WooCommerce 订单已创建",
+    "file": "WordPress/WooCommerce/order_create.jinja2"
   }
 ]
