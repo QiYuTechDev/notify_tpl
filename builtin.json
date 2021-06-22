@@ -18,5 +18,17 @@
   {
     "name": "WordPress 创建用户",
     "file": "WordPress/WpWebhooks/user_create.jinja2"
+  },
+  {
+    "name": "WordPress 用户登录",
+    "file": "WordPress/WpWebhooks/user_login.jinja2"
+  },
+  {
+    "name": "WordPress 更新用户",
+    "file": "WordPress/WpWebhooks/user_update.jinja2"
+  },
+  {
+    "name": "WordPress 删除用户",
+    "file": "WordPress/WpWebhooks/user_delete.jinja2"
   }
 ]
