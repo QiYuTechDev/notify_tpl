@@ -14,7 +14,7 @@
 #}
 
 {% macro render_issue(issue) %}
-Git 仓库: {{ issue.repository_url }}
+Git仓库: {{ issue.repository_url }}
 Issue: {{ issue.html_url }}
 标题: {{ issue.title }}
 内容: {{ issue.body }}
@@ -31,7 +31,7 @@ Issue: {{ issue.html_url }}
 原内容: {{ data.issue.changes.body.from }}
 新内容: {{ issue.body }}
         {% else %}
-            {% call render_issue(issue) %}
+            {{ render_issue(issue) }}
         {% endif %}
     {% endwith %}
 {% else %}
