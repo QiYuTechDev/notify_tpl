@@ -1,43 +1,43 @@
 [
   {
-    "name": "chatwoot 通知模版",
+    "name": "Chatwoot 通知模版",
     "file": "chatwoot.jinja2"
+  },
+  {
+    "name": "Github issue 事件",
+    "file": "github.jinja2"
   },
   {
     "name": "WordPress WooCommerce 订单已创建",
     "file": "WordPress/WooCommerce/order_create.jinja2"
   },
   {
-    "name": "WordPress WooCommerce 订单已更新",
-    "file": "WordPress/WooCommerce/order_update.jinja2"
-  },
-  {
     "name": "WordPress WooCommerce 订单已删除",
     "file": "WordPress/WooCommerce/order_delete.jinja2"
+  },
+  {
+    "name": "WordPress WooCommerce 订单已更新",
+    "file": "WordPress/WooCommerce/order_update.jinja2"
   },
   {
     "name": "WordPress 创建用户",
     "file": "WordPress/WpWebhooks/user_create.jinja2"
   },
   {
-    "name": "WordPress 用户登录",
-    "file": "WordPress/WpWebhooks/user_login.jinja2"
-  },
-  {
-    "name": "WordPress 更新用户",
-    "file": "WordPress/WpWebhooks/user_update.jinja2"
+    "name": "WordPress 删除文章",
+    "file": "WordPress/WpWebhooks/post_delete.jinja2"
   },
   {
     "name": "WordPress 删除用户",
     "file": "WordPress/WpWebhooks/user_delete.jinja2"
   },
   {
-    "name": "WordPress 文章创建",
-    "file": "WordPress/WpWebhooks/post_create.jinja2"
+    "name": "WordPress 删除评论",
+    "file": "WordPress/WpWebhooks/comment_delete.jinja2"
   },
   {
-    "name": "WordPress 删除文章",
-    "file": "WordPress/WpWebhooks/post_delete.jinja2"
+    "name": "WordPress 文章创建",
+    "file": "WordPress/WpWebhooks/post_create.jinja2"
   },
   {
     "name": "WordPress 文章移动到回收站",
@@ -48,15 +48,19 @@
     "file": "WordPress/WpWebhooks/post_update.jinja2"
   },
   {
-    "name": "WordPress 评论创建",
-    "file": "WordPress/WpWebhooks/comment_create.jinja2"
+    "name": "WordPress 更新用户",
+    "file": "WordPress/WpWebhooks/user_update.jinja2"
   },
   {
     "name": "WordPress 更新评论",
     "file": "WordPress/WpWebhooks/comment_update.jinja2"
   },
   {
-    "name": "WordPress 删除评论",
-    "file": "WordPress/WpWebhooks/comment_delete.jinja2"
+    "name": "WordPress 用户登录",
+    "file": "WordPress/WpWebhooks/user_login.jinja2"
+  },
+  {
+    "name": "WordPress 评论创建",
+    "file": "WordPress/WpWebhooks/comment_create.jinja2"
   }
 ]

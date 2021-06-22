@@ -6,11 +6,11 @@ with open("builtin.json") as fp:
     dl = json.load(fp)
 
 
-def s_n(x):  # sort by name
+def s_n(x) -> str:  # sort by name
     return x["name"]
 
 
-sorted(dl, key=s_n)
+dl = sorted(dl, key=s_n)
 
 with open("builtin.json", "w") as fp:
     data = json.dumps(dl, indent=2, ensure_ascii=False)
