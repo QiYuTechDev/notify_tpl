@@ -3,3 +3,7 @@
 * [官方网站](https://notify.qiyutech.tech/)
 * [帮助文档](https://docs.notify.qiyutech.tech/)
 * [API 文档](https://notify.qiyutech.tech/api/docs)
+
+# 部署
+
+下载 或者 `git clone` 此仓库 到奇遇推送服务器端的 `/static/notify_tpl` 目录中
