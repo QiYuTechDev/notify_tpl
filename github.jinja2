@@ -33,7 +33,7 @@ Issue: {{ issue.html_url }}
         {% else %}
             {% call render_issue(issue) %}
         {% endif %}
-    {% endif %}
+    {% endwith %}
 {% else %}
 Github 通知:
 
