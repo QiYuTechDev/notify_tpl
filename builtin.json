@@ -30,5 +30,21 @@
   {
     "name": "WordPress 删除用户",
     "file": "WordPress/WpWebhooks/user_delete.jinja2"
+  },
+  {
+    "name": "WordPress 文章创建",
+    "file": "WordPress/WpWebhooks/post_create.jinja2"
+  },
+  {
+    "name": "WordPress 删除文章",
+    "file": "WordPress/WpWebhooks/post_delete.jinja2"
+  },
+  {
+    "name": "WordPress 文章移动到回收站",
+    "file": "WordPress/WpWebhooks/post_trash.jinja2"
+  },
+  {
+    "name": "WordPress 更新文章",
+    "file": "WordPress/WpWebhooks/post_update.jinja2"
   }
 ]

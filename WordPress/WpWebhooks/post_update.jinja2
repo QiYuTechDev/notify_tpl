@@ -1,0 +1,10 @@
+{# @formatter:off #}
+{# 简介: WP Webhook 文章更新通知 #}
+{# 文档: 参见 WP Webhook 后台的文档 #}
+WordPress 文章更新通知:
+
+ID: {{ data.post_id }}
+标题: {{ data.post.post_title }}
+评论数量: {{ data.post.comment_count }}
+作者: {{ data.post.post_author }}
+链接: {{ data.post_permalink }}
