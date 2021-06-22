@@ -6,5 +6,13 @@
   {
     "name": "WordPress WooCommerce 订单已创建",
     "file": "WordPress/WooCommerce/order_create.jinja2"
+  },
+  {
+    "name": "WordPress WooCommerce 订单已更新",
+    "file": "WordPress/WooCommerce/order_update.jinja2"
+  },
+  {
+    "name": "WordPress WooCommerce 订单已删除",
+    "file": "WordPress/WooCommerce/order_delete.jinja2"
   }
 ]

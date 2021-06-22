@@ -1,0 +1,13 @@
+{# @formatter:off #}
+{# 简介: WordPress WooCommerce 订单已删除通知 #}
+{# 文档: https://woocommerce.github.io/woocommerce-rest-api-docs/#retrieve-an-order #}
+
+{#
+    安装 WordPress WooCommerce 插件之后
+    选择: WooCommerce -> 设置 -> 高级 -> 创建 WebHook -> 主题选择 订单已删除
+#}
+奇遇通知您 WooCommerce 订单已删除:
+
+订单状态: {{ data.status }}
+创建时间: {{ data.date_created_gmt }}
+价格: {{ data.total }}
