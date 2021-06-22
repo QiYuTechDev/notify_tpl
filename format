@@ -15,3 +15,4 @@ sorted(dl, key=s_n)
 with open("builtin.json", "w") as fp:
     data = json.dumps(dl, indent=2, ensure_ascii=False)
     fp.write(data)
+    fp.write("\n")
