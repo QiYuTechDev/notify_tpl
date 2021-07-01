@@ -14,7 +14,7 @@
 #}
 
 {% if data.issue %}
-Github issue 通知:
+{{ name }} 通知:
     {% with issue=data.issue %}
         {% if data.action == "edited" %}
 Git仓库: {{ issue.repository_url }}
