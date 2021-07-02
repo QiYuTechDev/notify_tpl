@@ -64,6 +64,10 @@
     "file": "WordPress/WpWebhooks/comment_create.jinja2"
   },
   {
+    "name": "kimsufi 监控",
+    "file": "kimsufi.jinja2"
+  },
+  {
     "name": "奇遇淘客 新用户",
     "file": "QiYuTk/new_user.jinja2"
   },

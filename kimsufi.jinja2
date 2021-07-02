@@ -1,0 +1,15 @@
+{# @formatter:off #}
+{# 简介: Kimsufi 监控 #}
+{# 文档: https://github.com/QiYuTechDev/kimsufi #}
+
+{{ name }}:
+
+{% for region in data %}
+区域: {{ region.region }}
+型号: {{ region.hardware }}
+机器列表:
+    {% for dc in region.datacenters %}
+{{ dc.availability }} {{ dc.datacenter }}
+    {% endfor %}
+
+{% endfor %}
