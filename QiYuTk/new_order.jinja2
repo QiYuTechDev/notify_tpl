@@ -1,0 +1,13 @@
+{# @formatter:off #}
+{# 简介: 奇遇淘客新订单创建 #}
+{# 文档: https://tbk.qiyutech.tech/server/env.html#webhook-new-order #}
+{{ name }}:
+
+用户: {{ data.username }}
+预估佣金: {{ data.income }}
+商品名称: {{ data.item.title }}
+商品图片: {{ data.item.pic }}
+商品原价: {{ data.item.price }}
+支付原价: {{ data.pay.price }}
+商家名称: {{ data.shop_title }}
+订单号: {{ data.order_no }}
